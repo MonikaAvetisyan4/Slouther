@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	width: 650px;
+	height:400px;
+	background-color: pink;
+	margin: 10px auto;
+	border-radius: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.header{
+	width: 600px;
+	height: 400px;
+	margin: 34px auto;
+	border-radius: 30px;
+	background-color: #d14f77;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	display: flex;
+	justify-content: center;
+}
+.spitakner{
+	width: 400px;
+	height:100px;
+	background-color: #d14f77;
+	border-radius: 30px;
+	margin: 0 auto;
+	position: relative;
+	top: 30px;
+	display: flex;
+	justify-content: center;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	align-items: center;
+}
+.box{
+	width: 170px;
+	height: 170px;
+	border: 5px solid pink;
+	background-color: white;
+	margin-top: 20px;
+	margin: 30px 8px 0 0;
+	background-image: url('../images/3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover
+}
+.btn{
+	width: 78px;
+	height: 78px;
+	margin:0 12px 12px 20px;
+	border-radius: 50%;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	color: white;
+	cursor: pointer;
+	   
+}
+#play{
+	background-color: #0a5a00;
+	border: 1px solid #0a5a00;
+}
+
+.small{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin: 1px;
+    float: left;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
+}
+/* h2,h1{
+	    position: relative;
+    top: 20px
+}  */
+.win{
+	width: 500px;
+    height: 300px;
+    background-color:#d14f77;
+    color: white;
+    position: absolute;
+    border-radius: 10px;
+    border:5px solid #6a186e; 
+    display: none;
+    top:220px
+    
+}
+.jackpot{
+	width: 500px;
+    height: 300px;
+    background-color:#f5d742;
+    color: white;
+    align-items: center;
+    position: absolute;
+    border-radius: 10px;
+    border:5px solid #6a186e; 
+    display: none;
+    top: 220px;
+    
+}
+
+.yellowbtn{
+	width: 500px;
+    height: 300px;
+    background-color:#ffff00;
+    color:#6600cc;
+    align-items: center;
+    position: absolute;
+    border-radius: 10px;
+    border:5px solid #6a186e; 
+    display: none;
+    top: 220px;
+}
